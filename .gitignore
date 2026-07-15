@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Dataset (太大，不进 git — 单独上传到 AutoDL)
+dataset/
+dataset.zip
+
+# 模型输出 / 权重 / 生成物
+outputs/
+checkpoints/
+*.pth
+*.pt
+src.zip
+
+# 大体积报告二进制（按需单独管理）
+*.pptx
+*.docx
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
